@@ -19,6 +19,7 @@
         "anax/anax-lite": "^1.0.0",
         "anax/page": "^1.1.0",
         "anax/textfilter": "^1.1.0",
+        "mos/cimage": "^0.7.20",
         "symfony/yaml": "^3.4.0"
     },
     "autoload": {
