@@ -3,7 +3,7 @@ Revision history
 
 
 
-v1.0.* (2018-08-10)
+v1.0.2 (2018-08-10)
 ---------------------------------
 
 * Prepare using Anax Lite, for real.
