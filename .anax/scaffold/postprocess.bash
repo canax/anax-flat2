@@ -2,34 +2,26 @@
 #
 # Postprocess scaffold
 #
-#
-# Compatible sed -i.
-# https://stackoverflow.com/a/4247319/341137
-# arg1: Expression.
-# arg2: Filename.
-#
-sedi()
-{
-    sed -i.bak "$1" "$2"
-    rm -f "$2.bak"
-}
 
-#
-# Exit with an error message
-# $1 the message to display
-# $2 an optinal exit code, default is 1
-#
-function error {
-    echo "$1" >&2
-    exit "${2:-1}"
-}
+# Include ./functions.bash
+source .anax/scaffold/functions.bash
 
 # Install using composer
-[[ $1 = "NO_COMPOSER" ]] || composer install
+composer install
 
-# Get & run scaffolding scripts from Anax Lite
+# Get scaffolding scripts from Anax Lite
 rsync -a vendor/anax/anax-lite/.anax/scaffold/ .anax/scaffold/anax-lite/
-bash .anax/scaffold/anax-lite/postprocess.bash "NO_COMPOSER"
+
+# Run scaffolding scripts from Anax Lite
+for file in .anax/scaffold/anax-lite/postprocess.d/*.bash; do
+    bash "$file"
+done
+
+# Run own scaffolding scripts
+for file in .anax/scaffold/postprocess.d/*.bash; do
+    bash "$file"
+done
+
 
 # # Copy default config for controller
 # rsync -a vendor/anax/controller/config/ config/
@@ -48,13 +40,13 @@ rsync -a vendor/anax/view/config/ config/
 install -d htdocs/img
 rsync -a vendor/anax/commons/htdocs/ htdocs/
 
+# Install mosbth/cimage into htdocs
+make cimage-install
 
 
 #
 # Review these
 #
-# Setup cimage
-make cimage-update
 
 # # Add default files to make it look oophp-me
 # make cimage-config-create

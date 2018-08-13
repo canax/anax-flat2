@@ -22,10 +22,10 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.2",
-        "anax/anax-lite": "^1.0.14",
+        "anax/anax-lite": "^1.0.18",
         "anax/controller": "^2.0.0@alpha",
         "anax/page": "^2.0.0@alpha",
-        "anax/textfilter": "^1.2.0",
+        "anax/textfilter": "^1.2.1",
         "anax/view": "^2.0.0@alpha",
         "mos/cimage": "^0.7.20",
         "symfony/yaml": "^3.4.0"
