@@ -3,10 +3,11 @@ Revision history
 
 
 
-v1.0.* (2018-08-14)
+v1.0.5 (2018-08-14)
 ---------------------------------
 
 * Add routes for flat file content.
+* Integrated with oophp me.
 
 
 
