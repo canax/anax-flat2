@@ -3,6 +3,13 @@ Revision history
 
 
 
+v1.0.6 (2018-08-14)
+---------------------------------
+
+* Update mimimum versions for anax/anax-lite and anax/textfilter.
+
+
+
 v1.0.5 (2018-08-14)
 ---------------------------------
 
