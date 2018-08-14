@@ -4,9 +4,11 @@ title: "Test"
 Test routes
 ==========================
 
-This page is written in markdown.
+This page is written in markdown in the file `content/test.md`.
 
 Here is some useful test routes that can be used to demonstrate and test how the routes work.
+
+You will find the implementation of the routes in `config/router/700_test.php`.
 
 * [Say Hi](test/hi)
 * [Say No! with a status code of 500](test/no)
