@@ -3,7 +3,7 @@ Revision history
 
 
 
-v1.0.* (2018-08-14)
+v1.0.7 (2018-08-14)
 ---------------------------------
 
 * Add configuration for mos/cimage.

@@ -30,4 +30,4 @@ echo "$git_ignore_files" > cache/cimage/.gitignore
 cp vendor/mos/cimage/webroot/img.php htdocs/cimage
 cp vendor/mos/cimage/webroot/img/car.png htdocs/img/
 echo "$cimage_config" > htdocs/cimage/img_config.php
-touch htdocs/cimage/index.php
+touch htdocs/cimage/index.html
