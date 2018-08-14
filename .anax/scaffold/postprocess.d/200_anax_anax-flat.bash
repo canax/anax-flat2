@@ -3,5 +3,5 @@
 # anax/anax-flat
 #
 
-# Remove the default 404 controller
-rm -f config/router/999_404.php
+# Create dirs needed
+install -d view
