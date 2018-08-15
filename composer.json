@@ -7,8 +7,7 @@
     "authors": [
         {
             "name": "Mikael Roos",
-            "email": "mos@dbwebb.se",
-            "role": "lead"
+            "email": "mos@dbwebb.se"
         }
     ],
     "support": {
@@ -22,8 +21,7 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.2",
-        "anax/anax-lite": "^1.0.20",
-        "anax/controller": "^2.0.0@alpha",
+        "anax/anax-lite": "^1.0.21",
         "anax/page": "^2.0.0@alpha",
         "anax/textfilter": "^1.2.3",
         "anax/view": "^2.0.0@alpha",

@@ -3,6 +3,13 @@ Revision history
 
 
 
+v1.0.8 (2018-08-15)
+---------------------------------
+
+* Remove anax/controller which is now supplied by Anax Lite.
+
+
+
 v1.0.7 (2018-08-14)
 ---------------------------------
 
