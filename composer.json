@@ -17,7 +17,7 @@
     "autoload": {
         "psr-4": {"Anax\\": "src/"}
     },
-    "minimum-stability": "alpha",
+    "minimum-stability": "beta",
     "prefer-stable": true,
     "require": {
         "php": "^7.2",
