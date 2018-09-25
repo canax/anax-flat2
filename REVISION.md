@@ -3,6 +3,13 @@ Revision history
 
 
 
+v1.0.12 (2018-09-25)
+---------------------------------
+
+* Add testcases for app style controller in content/test.
+
+
+
 v1.0.11 (2018-08-15)
 ---------------------------------
 
