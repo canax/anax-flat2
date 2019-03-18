@@ -3,6 +3,13 @@ Revision history
 
 
 
+v1.1.1 (2019-03-18)
+---------------------------------
+
+* Remove config/router/500_content.php, use it from anax/content instead.
+
+
+
 v1.1.0 (2019-03-18)
 ---------------------------------
 
